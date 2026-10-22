@@ -1,117 +1,51 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The George W. Bush Incident</title>
+    <title>Dobryniko</title>
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
-
-        * {
-            box-sizing: border-box;
-        }
-
         body {
             margin: 0;
             min-height: 100vh;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            padding: 30px 16px;
-            background: linear-gradient(135deg, #171329, #49265f, #241b3b);
-            color: #f9edff;
-            font-family: 'Comic Neue', cursive;
+            background: linear-gradient(135deg, #171329, #49265f);
+            font-family: Arial, sans-serif;
+            color: white;
         }
 
-        .container {
-            width: 100%;
-            max-width: 850px;
-            padding: 40px;
-            background: rgba(20, 13, 35, 0.88);
-            border: 2px solid #d9a4ff;
-            border-radius: 24px;
-            box-shadow: 0 0 35px rgba(195, 112, 255, 0.3);
-            animation: appear 1s ease;
+        img {
+            max-width: 90%;
+            max-height: 75vh;
+            object-fit: contain;
+            border: 3px solid #d9a4ff;
+            border-radius: 15px;
+            box-shadow: 0 0 30px #b65cff80;
         }
 
         h1 {
-            text-align: center;
-            font-size: clamp(28px, 5vw, 45px);
             color: #e5b8ff;
-            margin-top: 0;
-            text-shadow: 0 0 15px #b65cff;
+            margin-bottom: 25px;
         }
 
-        .subtitle {
-            text-align: center;
-            color: #cbb2e8;
-            margin-bottom: 30px;
-            font-size: 17px;
-        }
-
-        .story {
-            font-size: 19px;
-            line-height: 1.9;
-            white-space: pre-line;
-        }
-
-        .signature {
-            margin-top: 35px;
-            padding-top: 20px;
-            border-top: 1px solid #684681;
-            text-align: right;
-            font-size: 23px;
-            font-weight: bold;
-            color: #e5b8ff;
-            letter-spacing: 1px;
-        }
-
-        .stars {
-            text-align: center;
-            font-size: 22px;
-            margin-bottom: 18px;
-        }
-
-        @keyframes appear {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        @media (max-width: 600px) {
-            .container {
-                padding: 25px 20px;
-            }
-
-            .story {
-                font-size: 17px;
-            }
+        footer {
+            margin-top: 25px;
+            color: #d9a4ff;
+            font-size: 18px;
         }
     </style>
 </head>
 
 <body>
-    <main class="container">
-        <div class="stars">✦ ⋆｡°✩ ✦</div>
+    <h1>Dobryniko ✨</h1>
 
-        <h1>The George W. Bush Incident</h1>
+    <img src="dobryniko.png" alt="Dobryniko">
 
-        <p class="subtitle">
-            a story of identity, betrayal &amp; jibjab
-        </p>
-
-        <div class="story">My mom said I'm not George W. Bush. I'm actually freaking out. Ok so for context, I'm a George W. Bush fictionkin. I was showing my mom JibJab characters. I pointed to George W. Bush and said "look! that's me! hehe," she gave me the most DISGUSTED look. and said "what? no. You’re not George W. Bush.. you're dobrynko!" oh. Thanks mom. Now I'm in my room, having a LITERAL panic attack. I hope you're happy…</div>
-
-        <footer class="signature">
-            By Dobryniko ♡
-        </footer>
-    </main>
+    <footer>By Dobryniko ♡</footer>
 </body>
 </html>
